@@ -31,7 +31,7 @@ After creating the container, it is necessary to load the reviews that we will u
 
 Once done, select the created container and, in the top menu, select "upload" and then send the reviews to the model, feeding it.
 
-# Until that moment we have to have 3 resources:
+### Until that moment we have to have 3 resources:
 
 an Azure AI Service Resource,
 a Search Service resource
@@ -58,14 +58,14 @@ Select "Next: Add cognitive skills (Optional)".
 
 In the Attach Cognitive Services section, select your Azure AI services resource.
 
-# In the Add Enrichments section:
+### In the Add Enrichments section:
 Change the Skillset name to "coffee-skillset".
 Check the "Enable OCR and merge all text in merged_content field" checkbox
 Make sure the "Source Data Field" field is set to "merged_content".
 Change the enrichment granularity level to "Pages (5000 character blocks)".
 Do not select "Enable incremental enrichment"
 
-# Under Save enrichments to a knowledge store, select:
+### Under Save enrichments to a knowledge store, select:
 Image projections
 Documents
 Pages
@@ -132,6 +132,6 @@ It is possible to change the filter by city (it must be 3 in @odata.count):
   "search": "locations:'Chicago'",
   "count": true
 }
-## Tests carried out and problem situation 🧭
+# Tests carried out and problem situation 🧭
 The problem situation used for this test involved a cafeteria service that needed to gather information about sales, consumption and the brand's vision in relation to customers.
 The situation shows us different evaluations in relation to the services provided by the Café, making it possible to extract data based on key-value, through words in a semantic context or through the feeling expressed by a sentence as a whole.
