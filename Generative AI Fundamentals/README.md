@@ -1,34 +1,45 @@
-# Microsoft AI Vision Service
+# Challenge proposed
 
-Training for certification Azure Basically, I used the same step-by-step procedure demonstrated on the Azure website 
-(https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/04-face.html)
-(https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html)
-(https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/03-image-analysis.html)
+To test the capabilities of generative AI, two images of two cities were requested.
+## The first was the city of São Vicente.
+AI response:
+![Texto Alternativo](https://github.com/AndreLuiz-Cardoso/AI-900-MachineLearning/blob/main/Generative%20AI%20Fundamentals/Output/S%C3%A3o%20Vicente.jpg?raw=true)
+Here is an artistic representation of the city of São Vicente, the first permanent town established in Portuguese America. Founded in 1532 by the Portuguese military and colonial administrator Martim Afonso de Sousa, São Vicente is a Brazilian municipality in the state of São Paulo, belonging to the Metropolitan Region of Baixada Santista. Its estimated population for 2022 was 329,844 inhabitants[1][1]. The city has an area of 148,151 km² and a demographic density of 2,226.4 inhabitants per square kilometer. Furthermore, São Vicente is one of the 15 municipalities in São Paulo considered seaside resorts, which guarantees greater funding from the State for the promotion of regional tourism.
 
-#  Environment Configuration Process
+## The second was Luxembourg.
+AI response:
+![Texto Alternativo](https://github.com/AndreLuiz-Cardoso/AI-900-MachineLearning/blob/main/Generative%20AI%20Fundamentals/Output/Luxembourg.jpg?raw=true)
 
-1 Access the Azure portal at https://portal.azure.com.
 
-2 In the navigation pane, click "Create a resource" to start creating a new resource.
+Luxembourg, officially known as the Grand Duchy of Luxembourg, is a small landlocked country located in Western Europe. Here are some details about Luxembourg:
+Geography and Neighborhood:
+Luxembourg borders Belgium to the west and north, Germany to the east and France to the south.
+It is a compact-sized country, with a total area of 2,586.4 km².
+The capital and largest city is Luxembourg.
+Demography and Culture:
+Luxembourg's population is diverse, with a mix of nationalities. In 2023, the composition of the population was approximately:
+52.8% Luxembourgers
+14.5% Portuguese
+7.6% French
+3.7% Italians
+21.4% other nationalities.
+The country has three administrative languages: Luxembourgish, German and French.
+The predominant religion is Christianity, with around 63.8% of the population being Catholic.
+History and Independence:
+Luxembourg has roots that date back to the 10th century.
+On June 9, 1815, after the end of the French Empire, Luxembourg was elevated to the status of Grand Duchy.
+On April 19, 1839, the country gained independence in personal union with the Netherlands.
+On May 11, 1867, independence was reaffirmed by the Treaty of London.
+On November 23, 1890, the personal union with the Netherlands came to an end.
+During World War I, Luxembourg was occupied by the German Empire.
+After World War II, the country was liberated from the Greater German Reich in 1944/1945.
+Luxembourg was admitted to the United Nations on October 24, 1945, and founded the European Economic Community (EEC) on January 1, 1958.
+Economy and Statistics:
+Luxembourg is a prominent financial center.
+It has an advanced economy and one of the highest GDP per capita in the world.
+In 2024, the estimated GDP (PPP) is US$96.886 billion and the estimated nominal GDP is US$89.095 billion.
+The country has a very high human development index (HDI), ranked 20th globally.
+Luxembourg is a fascinating nation, with a rich history, a thriving economy and a diverse culture.
 
-3 In the search bar, type "AI + Machine Learning" and select "Azure AI Services" from the list of results.
-
-4 Choose "Vision" or any other computer vision-related service that meets your needs. It may be called "Vision Studio" or similar.
-
-5 Configure the resource creation procedure, providing details such as name, subscription, resource group, location, pricing plan, and more. Make sure to review and select suitable options as per your requirements.
-
-6 After configuring all options, click "Review + Create" to begin the resource creation process.
-
-7 After the resource is successfully created, go to the Vision AI portal at https://portal.vision.cognitive.azure.com.
-
-8 In the Vision AI portal, find the resource you just created and select it as the default if other resources are available.
-
-9 Access the "Face" tab or any other relevant tab, depending on the service chosen, and follow the steps provided in the documentation to explore how the tool works.
-
-10 You may have the option to test the functionality with one of the example photos provided by the tool itself. Follow the instructions provided to perform the test successfully.
-
-11 Remember to review the official Azure documentation for specific details about each step and to ensure you correctly configure your Vision AI resource according to your requirements and goals.
-
-# Analysis of the results obtained from the experiment
-
-With the results obtained, available in the outputs folder, it is possible to infer a considerably high match rate. Even for images that were generated by AI, it had good success in rendering the images in their respective descriptions in a reliable way.
+# Insights
+The Microsoft copilot proved to be at another level of knowledge, as he not only interacts with the public, but provides curiosities, locations, tips and even uses emogis to complement his answers, which gives him a more "humanized" aspect.
